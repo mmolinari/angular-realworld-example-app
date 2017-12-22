@@ -1,0 +1,163 @@
+.con-canhan{
+
+	border-radius:10px;
+	border: 1px #cdcdcd solid;
+	margin-bottom:30px;
+	padding:20px;
+}
+.table-khung{
+	width:80%;
+}
+.table-khung>tbody>tr >td {
+    line-height: 50px;
+}
+
+.form-control{
+
+}
+.submit_cn{
+    background-color: #e7e7e7;
+    padding: 5px 45px;
+    font-size: 16px;
+    color: #505050;
+    box-shadow: #cdcccc -4px 4px 0px;
+    border:none;
+    line-height: 29px;
+    float:left;
+}
+.open_ajax{
+
+    float:left;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.submit_cn:hover{
+	background-color:#10a706;
+	text-decoration:none;
+	color:#FFF;
+}
+.title-tr-blue{
+    width: 100%;
+    font-size:small;
+    background-color: #286090;
+    padding: 0px;
+    margin: 0px;
+    line-height: 60px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.title-tr-green{
+    width: 100%;
+    font-size:small;
+    background-color: #15a90c;
+    padding: 0px;
+    margin: 0px;
+    line-height: 60px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.title-tr-orange{
+    width: 100%;
+    font-size:small;
+    background-color: #ff6459;
+    padding: 0px;
+    margin: 0px;
+    line-height: 60px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.img-responsive3{
+	width:100%;
+	margin:10px;
+}
+.thongtin >p{
+}
+.point1{
+	padding:20px;
+	background-color:#10a706;
+	color:#fff;
+	font-size:24px;
+}
+.point11 >strong{
+	color:#10a706;
+	font-size:18px;
+}
+.thongbao-kh{
+	border-radius: 26px;
+    line-height: 30px;
+    background-color: #F00;
+    display: inline-block;
+    padding: 0px 13px;
+	text-decoration:none;
+}
+.thongbao-kh:hover{
+	opacity:0.8;
+}
+/* CSS canhan */
+/* CSS giaovien */
+.contai-giaovien{
+    margin:20px auto;
+    padding-bottom:30px;
+    border-bottom:#cdcdcd 1px solid;
+    position:relative;
+    text-align: center;
+    width:90%;
+}
+.contai-giaovien >a >img{
+    border-radius: 50%;
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+.contai-giaovien >p{
+    min-height:170px;
+}
+.title-techer >a{
+    color:#10a706;
+    font-size:20px;
+    font-weight:bold;
+    line-height:50px;
+}
+.title-techer >a:hover{
+    opacity:0.8;
+    text-decoration:none;
+}
+.con-color{
+    border:#10a706 solid 4px;
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+    margin: 0px;
+}
+.teacher-pro{
+    border:#ebebeb solid 1px;
+    padding:20px;
+    border-top:none;
+}
+.teacher-pro >li{
+    border-bottom:#ebebeb dotted 2px;
+    line-height:50px;
+    list-style:none;
+    padding:0px;
+    color:#999;
+}
+.teacher-pro >li >span{
+    color:#505050;
+    font-weight:bold;
+    padding-left:15px;
+}
+.teacher-pro >.title3{
+    font-weight:bold;
+    font-size:18px;
+    color:#505050;
+}

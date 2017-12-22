@@ -47,9 +47,7 @@ import { FrontPageComponent } from 'app/front-page/front-page.component';
 import { CalendarComponent } from 'app/calendar/calendar.component';
 import { IntroModule } from 'app/intro/intro.module';
 import { SupportComponent } from './support/support.component';
-import { TopTeacherComponent } from './top-teacher/top-teacher.component';
 import { FeatureComponent } from './feature/feature.component';
-import { TeacherInfoComponent } from './teacher-info/teacher-info.component';
 
 const rootRouting: ModuleWithProviders = RouterModule.forRoot([{
     path: 'hello',
@@ -63,7 +61,6 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([{
         HeaderComponent,
         FrontPageComponent,
         SupportComponent,
-        TeacherInfoComponent,
     ],
     imports: [
         BrowserModule,
