@@ -1,0 +1,10 @@
+.item {
+    width: 100vw;
+    // height: calc(100vh - 35px);
+    &.active {
+    }
+    a {
+        width: 100%;
+        height: 100%;
+    }
+}

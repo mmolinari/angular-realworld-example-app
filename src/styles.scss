@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import "material/theme";
+@import '~@angular/material/theming';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  background: mat-color($md-gray, 50);
+  display: flex;
+  flex-direction: column;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.md-hint {
+  &.error {
+    color: red;
+  }
+}
+
+.md-sidenav-focus-trap > .cdk-focus-trap-content {
+  display: flex;
+  align-items: stretch;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+md-sidenav-layout {
+  flex: 1 1 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.clearfix {
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }

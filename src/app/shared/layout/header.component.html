@@ -1,0 +1,77 @@
+<nav class="navbar navbar-light">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/">english online</a>
+
+        <!-- Show this for logged out users -->
+        <ul class="nav navbar-nav pull-xs-right">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/intro" routerLinkActive="active">
+                    Giới thiệu
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/editor" routerLinkActive="active">
+                    Khóa học
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/editor" routerLinkActive="active">
+                    Lộ trình học
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/teacher" routerLinkActive="active">
+                    Giáo viên
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/editor" routerLinkActive="active">
+                    Học phí
+                </a>
+            </li>
+            <li class="nav-item" *showAuthed="true">
+                <a class="nav-link" routerLink="/editor" routerLinkActive="active">
+                    <i class="ion-android-calendar"></i>&nbsp;Đặt lịch học
+                </a>
+            </li>
+
+            <li class="nav-item" *showAuthed="true">
+                <a class="nav-link" routerLink="/editor" routerLinkActive="active">
+                    <i class="ion-compose"></i>&nbsp;Bài viết mới
+                </a>
+            </li>
+
+            <li class="nav-item" *showAuthed="true">
+                <a class="nav-link" routerLink="/settings" routerLinkActive="active">
+                    <i class="ion-gear-a"></i>&nbsp;Cài đặt
+                </a>
+            </li>
+
+            <li class="nav-item" *showAuthed="true">
+                <a class="nav-link" [routerLink]="['/profile', currentUser.username]" routerLinkActive="active">
+                    <img [src]="currentUser.image" *ngIf="currentUser.image" class="user-pic" /> {{ currentUser.username }}
+                </a>
+            </li>
+
+            <li class="nav-item" *showAuthed="false">
+                <a class="nav-link" routerLink="/login" routerLinkActive="active">
+                    Đăng nhập
+                </a>
+            </li>
+
+            <li class="nav-item" *showAuthed="false">
+                <a class="nav-link" routerLink="/register" routerLinkActive="active">
+                    Đăng ký
+                </a>
+            </li>
+        </ul>
+
+        <!-- Show this for logged in users -->
+        <ul *showAuthed="true" class="nav navbar-nav pull-xs-right">
+
+
+        </ul>
+
+    </div>
+</nav>

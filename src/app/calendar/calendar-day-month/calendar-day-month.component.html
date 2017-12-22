@@ -1,0 +1,19 @@
+<div class="day">
+  {{calendarDay.date | date: "d"}}
+</div>
+
+<div class="dropZone"
+     dnd-droppable
+     (onDropSuccess)="onDropSuccess($event)"
+>
+  <app-calendar-card
+    *ngFor="let card of cards"
+    [card]="card"
+    dnd-draggable
+    [dragData]="card"
+    [dragEnabled]="true"
+  ></app-calendar-card>
+</div>
+
+
+

@@ -1,0 +1,64 @@
+.info.supporter .container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 90px;
+}
+
+.info.supporter {
+    padding-top: 130px !important;
+    background: url('https://e-space.vn/images/customer-support.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.info.supporter .line01 {
+    margin-bottom: 20px;
+}
+
+.info.supporter .supporter-person {
+    position: relative;
+}
+
+.info.supporter .supporter-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius:  50%;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 50%;
+    background: #f1f1f1;
+    position: absolute;
+    top: -165px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+}
+
+.info.supporter .supporter-info .supporter-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info.supporter .supporter-info .supporter-phones .supporter-phones-item {
+    color: #009245;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info.supporter .support-block-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info.supporter .supporter-info .supporter-skypes {
+    margin-top: 10px;
+}
+
+.info.supporter .support-block-content .email {
+    font-weight: bold;
+}
+
+.info.supporter .support-block-content p {
+
+}
