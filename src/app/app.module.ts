@@ -48,6 +48,7 @@ import { CalendarComponent } from 'app/calendar/calendar.component';
 import { IntroModule } from 'app/intro/intro.module';
 import { SupportComponent } from './support/support.component';
 import { FeatureComponent } from './feature/feature.component';
+import { BookingModule } from 'app/booking/booking.module';
 
 const rootRouting: ModuleWithProviders = RouterModule.forRoot([{
     path: 'hello',
@@ -71,6 +72,7 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([{
         HomeModule,
         IntroModule,
         ProfileModule,
+        BookingModule,
         rootRouting,
         SharedModule,
         SettingsModule,

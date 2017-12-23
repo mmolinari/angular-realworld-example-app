@@ -7,8 +7,7 @@ import { AuthGuard, SharedModule } from '../shared';
 const settingsRouting: ModuleWithProviders = RouterModule.forChild([
   {
     path: 'teacher',
-    component: TeacherInfoComponent,
-    canActivate: [AuthGuard]
+    component: TeacherInfoComponent
   }
 ]);
 
